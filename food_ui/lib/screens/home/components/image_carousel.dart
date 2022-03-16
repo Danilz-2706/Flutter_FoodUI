@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../../../constants.dart';
 import '../../../demoData.dart';
+
 class ImageCarousel extends StatefulWidget {
   const ImageCarousel({
     Key? key,
@@ -45,7 +46,7 @@ class _ImageCarouselState extends State<ImageCarousel> {
                     ),
                   )),
             )),
-          )
+          ),
         ],
       ),
     );
