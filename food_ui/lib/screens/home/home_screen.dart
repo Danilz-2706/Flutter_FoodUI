@@ -68,8 +68,10 @@ class HomeScreen extends StatelessWidget {
                   children: List.generate(
                       demoMediumCardData.length,
                       (index) => Padding(
-                            padding:
-                                const EdgeInsets.only(left: defaultPadding),
+                            padding: const EdgeInsets.only(
+                              left: defaultPadding,
+                              bottom: defaultPadding,
+                            ),
                             child: RestaurantInfoMediumCard(
                               img: demoMediumCardData[index]['image'],
                               name: demoMediumCardData[index]['name'],
@@ -105,8 +107,10 @@ class HomeScreen extends StatelessWidget {
                   children: List.generate(
                       demoMediumCardData.length,
                       (index) => Padding(
-                            padding:
-                                const EdgeInsets.only(left: defaultPadding),
+                            padding: const EdgeInsets.only(
+                              left: defaultPadding,
+                              bottom: defaultPadding,
+                            ),
                             child: RestaurantInfoMediumCard(
                               img: demoMediumCardData[index]['image'],
                               name: demoMediumCardData[index]['name'],
